@@ -1,0 +1,19 @@
+body{
+    background-color: purple;
+}
+
+h3{
+    color: purple;
+}
+
+h4{
+    color: white;
+}
+
+p{
+    color:white;
+}
+
+.container-fluid{
+    width: 70%;
+}
