@@ -1,108 +1,381 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Locadoura</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Children's Rental</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <img src="https://static.vecteezy.com/ti/vetor-gratis/p3/4568669-icone-de-linha-de-categoria-vetor.jpg" alt="" width="30" height="24"> 
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Ação</a></li>
-                  <li><a class="dropdown-item" href="#">Comédia</a></li>
-                  <li><a class="dropdown-item" href="#">Drama</a></li>
-                  <li><a class="dropdown-item" href="#">Fantasia</a></li>
-                  <li><a class="dropdown-item" href="#">Mistério</a></li>
-                  <li><a class="dropdown-item" href="#">Musical</a></li>
+            <a class="navbar-brand" href="#">Children's Rental</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Gêneros
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Aventura</a></li>
+                            <li><a class="dropdown-item" href="#">Comédia</a></li>
+                            <li><a class="dropdown-item" href="#">Drama</a></li>
+                            <li><a class="dropdown-item" href="#">Fantasia</a></li>
+                            <li><a class="dropdown-item" href="#">Mistério</a></li>
+                            <li><a class="dropdown-item" href="#">Musical</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://maps.app.goo.gl/tvCPa8DVXize99zK6">Localização</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contatos.html">Contatos</a>
+                    </li>
                 </ul>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-dark" type="submit">Search</button>
+                </form>
+            </div>
         </div>
     </nav>
-
     <div class="container">
         <div class="row">
+            <h3>Aventura</h3>
             <div class="col-md-3">
-                <img src="https://upload.wikimedia.org/wikipedia/pt/0/0d/Barbie_12_Dancing_Princesses.png" width="230px" height="280px">
+                <img src="https://upload.wikimedia.org/wikipedia/pt/6/62/How_to_Train_Your_Dragon_%28filme%29_Poster.jpg"
+                    width="230px" height="280">
                 <div class="card-body">
-                    <h4 class="card-title">Barbie e as Doze Princesas Bailarinas</h4>
-                    <p class="card-text">2006 ‧ Animação/Animação ‧ 1h 26m</p>
+                    <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        Como Treinar seu Dragão
+                    </a>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            2010 ‧ Infantil/Aventura ‧ 1h 38m
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-3">
-                <img src="https://upload.wikimedia.org/wikipedia/pt/9/97/BarbieEscola.jpg" width="230px" height="280" >
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQDlv1kJvBUnB23lWOztoezpzZAPSOC91l0wqX81shE06fXVL5r"
+                    width="230px" height="280">
                 <div class="card-body">
-                    <h4 class="card-title">Barbie: Escola de Princesas</h4>
-                    <p class="card-text">2011 ‧ Infantil/Animação ‧ 1h 21m</p>
+                    <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        Como Treinar seu Dragão 2
+                    </a>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            2014 ‧ Infantil/Aventura ‧ 1h 42m
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQcytHdBKs16tllk6bW5DCTBHNins7xDNOjPwjXvb4uTy338kF4"
+                    width="230px" height="280">
+                <div class="card-body">
+                    <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        Como Treinar seu Dragão 3
+                    </a>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            2019 ‧ Infantil/Aventura ‧ 1h 44m
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <img src="https://br.web.img3.acsta.net/medias/nmedia/18/92/03/73/20176438.jpg" width="230px"
+                    height="280">
+                <div class="card-body">
+                    <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        Up: Altas Aventuras
+                    </a>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            2009 ‧ Aventura/Infantil ‧ 1h 36
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <h3>Comédia</h3>
+            <div class="col-md-3">
+                <img src="https://media.fstatic.com/v8pPDzHCuqRJ_U_dYaH1obx32No=/322x478/smart/filters:format(webp)/media/movies/covers/2017/07/MPW-45583.jpg"
+                    width="230px" height="280">
+                <div class="card-body">
+                    <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        Carros
+                    </a>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            2006 ‧ Comédia/Infantil ‧ 1h 57m
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/7/7e/Carros_2_P%C3%B4ster.jpg/250px-Carros_2_P%C3%B4ster.jpg"
+                    width="230px" height="280">
+                <div class="card-body">
+                    <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        Carros 2
+                    </a>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            2011 ‧ Infantil/Comédia ‧ 1h 53m
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <img src="https://m.media-amazon.com/images/I/91WhB3SZ-DL._AC_UF894,1000_QL80_.jpg" width="230px"
+                    height="280">
+                <div class="card-body">
+                    <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        Carros 3
+                    </a>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            2017 ‧ Infantil/Comédia ‧ 1h 49m
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <img src="https://br.web.img2.acsta.net/pictures/23/04/03/19/45/2854005.jpg" width="230px" height="280">
+                <div class="card-body">
+                    <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        Super Mario Bros. O Filme
+                    </a>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            2023 ‧ Aventura/Comédia ‧ 1h 32m
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <h3>Drama</h3>
+            <div class="col-md-3">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqFdpH1ms7n5uUJAufnkR9dAmR3osOqaO-Z1NOEtDXJqpzW8L3"
+                    width="230px" height="280">
+                <div class="card-body">
+                    <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        Onde vivem os monstros
+                    </a>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            2009 ‧ Infantil/Drama ‧ 1h 41m
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn2Er5hltNwerZqGP_0L7eTIDz8uauK3opB0L65hsgm8XRpM_-"
+                    width="230px" height="280">
+                <div class="card-body">
+                    <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        A caminho de casa
+                    </a>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            2019 ‧ Infantil/Drama ‧ 1h 37m
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Gzu-tsOdR7h58urAInLI2WqpxOaENV8usezdWHsV3-zQFEO6" width="230px"
+                    height="280">
+                <div class="card-body">
+                    <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        O jardim secreto
+                    </a>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            2020 ‧ Infantil/Drama ‧ 1h 40m
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <img src="https://br.web.img2.acsta.net/c_310_420/pictures/22/11/17/20/58/0132283.jpg" width="230px" height="280">
+                <div class="card-body">
+                    <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        Elementos
+                    </a>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            2023 ‧ Infantil/Drama ‧ 1h 42m
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <h3>Fantasia</h3>
+            <div class="col-md-3">
+                <img src="https://upload.wikimedia.org/wikipedia/pt/0/0d/Barbie_12_Dancing_Princesses.png" width="230px"
+                    height="280px">
+                <div class="card-body">
+                    <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        Barbie e as Doze Princesas Bailarinas
+                    </a>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            2006 ‧ Infantil/Fantasia ‧ 1h 26m
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <img src="https://upload.wikimedia.org/wikipedia/pt/9/97/BarbieEscola.jpg" width="230px" height="280">
+                <div class="card-body">
+                    <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        Barbie: Escola de Princesas
+                    </a>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            2011 ‧ Infantil/Fantasia ‧ 1h 21m
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <img src="https://assetsgn.nowonline.com.br/assets/p9405379_v_v8_ab.jpg" width="230px" height="280">
                 <div class="card-body">
-                    <h4 class="card-title">Barbie - A Princesa & a Pop Star</h4>
-                    <p class="card-text">2012 ‧ Infantil/Fantasia ‧ 1h 26m</p>
+                    <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        Barbie - A Princesa & a Pop Star
+                    </a>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            2012 ‧ Infantil/Fantasia ‧ 1h 26m
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-3">
-                <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/d/d7/Barbie_Rapunzel.jpg/240px-Barbie_Rapunzel.jpg" width="230px" height="280">
+                <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/d/d7/Barbie_Rapunzel.jpg/240px-Barbie_Rapunzel.jpg"
+                    width="230px" height="280">
                 <div class="card-body">
-                    <h4 class="card-title">Barbie Rapunzel</h4>
-                    <p class="card-text">2002 ‧ Fantasia/Animação ‧ 1h 27m</p>
+                    <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        Barbie Rapunzel
+                    </a>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            2002 ‧ Infantil/Fantasia ‧ 1h 27m
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row">
+            <h3>Musical</h3>
             <div class="col-md-3">
-                <img src="https://media.fstatic.com/v8pPDzHCuqRJ_U_dYaH1obx32No=/322x478/smart/filters:format(webp)/media/movies/covers/2017/07/MPW-45583.jpg" width="230px" height="280">
+                <img src="https://upload.wikimedia.org/wikipedia/pt/c/cd/O_Estranho_Mundo_de_Jack.png" width="230px"
+                    height="280px">
                 <div class="card-body">
-                    <h4 class="card-title">Carros</h4>
-                    <p class="card-text">2006 ‧ Comédia/Infantil ‧ 1h 57m</p>
+                    <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        O Estranho Mundo de Jack
+                    </a>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            1993 ‧ Infantil/Musical ‧ 1h 16m
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-3">
-                <img src="https://upload.wikimedia.org/wikipedia/pt/thumb/7/7e/Carros_2_P%C3%B4ster.jpg/250px-Carros_2_P%C3%B4ster.jpg" width="230px" height="280" >
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRnp9rTkDLnpwBpDQ6QCeLqy4DIYj6hIXeTsWc3T4rCKp2d0VxK" width="230px" height="280">
                 <div class="card-body">
-                    <h4 class="card-title">Carros 2</h4>
-                    <p class="card-text">2011 ‧ Infantil/Comédia ‧ 1h 53m</p>
+                    <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        O Retorno de Mary Poppins
+                    </a>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            2018 ‧ Infantil/Musical ‧ 2h 10m
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-3">
-                <img src="https://m.media-amazon.com/images/I/91WhB3SZ-DL._AC_UF894,1000_QL80_.jpg" width="230px" height="280">
+                <img src="https://upload.wikimedia.org/wikipedia/pt/d/d2/Fantasia2000.jpg" width="230px" height="280">
                 <div class="card-body">
-                    <h4 class="card-title">Carros 3</h4>
-                    <p class="card-text">2017 ‧ Infantil/Comédia ‧ 1h 49m</p>
+                    <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        Fantasia 2000
+                    </a>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            1999 ‧ Infantil/Musical ‧ 1h 15m
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="col-md-3">
-                <img src="https://br.web.img3.acsta.net/medias/nmedia/18/92/03/73/20176438.jpg" width="230px" height="280">
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTcl_WP39rMz4s3-M9wd4VS0CVkbSojnsW1Sl8BJTmPY-zt9ZwV"
+                    width="230px" height="280">
                 <div class="card-body">
-                    <h4 class="card-title">Up: Altas Aventuras</h4>
-                    <p class="card-text">2009 ‧ Aventura/Infantil ‧ 1h 36</p>
+                    <a class="btn btn-dark" data-bs-toggle="collapse" href="#collapseExample" role="button"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        O Caldeirão Mágico
+                    </a>
+                    <div class="collapse" id="collapseExample">
+                        <div class="card card-body">
+                            1985 ‧ Infantil/Musical ‧ 1h 20m
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+
+
 </body>
+
 </html>
