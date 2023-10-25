@@ -57,3 +57,5 @@ git config --global user.name ArianeJunkes
 git config --global user.email arianejunkes312@gmail.com 
 git config --global user.name ArianeJunkes 
 git config --global user.email arianejunkes312@gmail.com 
+git config --global user.name ArianeJunkes 
+git config --global user.email arianejunkes312@gmail.com 
